@@ -5,7 +5,7 @@
 本專題為一套基於視覺辨識之移動式科技執法系統，此系統會偵測停放於路邊的車輛是否為違停車輛，並記錄違停車輛之車牌。
 可輸入道路影片檔案進行辨識，亦可輔以小型自駕載具及開源自駕軟體Autoware進行路上即時辨識。
 
-![Untitled](Document/Untitled.png)
+![Untitled](Document/car_video_2.gif)
 
 ## 1. 使用方法
 
@@ -52,7 +52,7 @@ if ((slope <= -0.5)&(slope>=-1)) | ((slope >= 0.5)&(slope<=1)):
 - 使用車上搭載之攝影機，將影像傳至車上之電腦後，透過YOLOV4模型判斷路邊之車輛，並將辨識框範圍填滿，如圖(c)
 - 並將兩者進行交集運算，如圖(d)，如有交集，則視為車輛有違停
 
-![Untitled](Document/car_video_%202.gif)
+![Untitled](Document/Untitled%201.png)
 
 ### 3-2 車牌辨識
 
