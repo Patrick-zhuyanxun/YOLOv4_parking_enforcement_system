@@ -52,7 +52,7 @@ if ((slope <= -0.5)&(slope>=-1)) | ((slope >= 0.5)&(slope<=1)):
 - 使用車上搭載之攝影機，將影像傳至車上之電腦後，透過YOLOV4模型判斷路邊之車輛，並將辨識框範圍填滿，如圖(c)
 - 並將兩者進行交集運算，如圖(d)，如有交集，則視為車輛有違停
 
-![Untitled](Document/Untitled%201.png)
+![Untitled](Document/car_video_%202.gif)
 
 ### 3-2 車牌辨識
 
